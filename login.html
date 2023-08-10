@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body style="background-color:antiquewhite">
+    <br>
+    <br>
+    <center>    <div><img src="download.png" alt="kce logo" width="440px"></div>
+    </center>
+    <p style="text-align: center;"><a href="index.html" class="login" style="text-decoration: none;font-size: large; background-color: azure;"><b>HOME</b></a> &nbsp; &nbsp; <a href="login.html" style="text-decoration: none; background-color: azure; font-size: large;"><b>SIGNUP</b></a>&nbsp;&nbsp; &nbsp;<a href="account.html" style="text-decoration: none;font-size: large; background-color: azure;"><b>LOGIN</b></a>
+    </p>
+
+     <br> <form  id="for" onsubmit="read();return false;">
+    <center>
+        <table class="tabletotal" border="1" style="background-color:antiquewhite; border-color: black; width: 410px; height: 500px; color: black;font-weight: bold;">
+            <tr> 
+                <td colspan="2" style=" color:white; background-color:rgba(0,0,0,.75)"><center><h2>Registration Form</h2></center></td>
+            </tr>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" placeholder="Enter Name" id="name" required></td>
+    </tr>
+    <tr>
+        <td>Roll Number</td>
+        <td><input type="text" id="roll" placeholder="Enter Roll no" required ></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password" maxlength="20" placeholder="Enter Password"  minlength="8" id="password" required></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" placeholder="Enter Email"  id="email" required></td>
+    </tr>
+
+    <tr>
+        <td> Select Institution</td>
+        <td><select name="clg"  id="clg">
+        <option value="Select">Select</option>
+        <option value="kce">KCE</option>    
+        <option value="kit">KIT</option>    
+        <option value="kahe">KAHE</option>    
+        <option value="pharm">PHARMACY/NURSING</option>    
+        <option value="medical">MEDICAL</option>    
+    </select>
+    </td>
+    </tr>
+    <tr>
+        <td> Select Department</td>
+        <td><select name="Department" id="department">
+        <option value="Select">Select</option>
+        <option value="cse">CSE</option>    
+        <option value="it">IT</option>    
+        <option value="ece">ECE</option>    
+        <option value="aids">AIDS</option>    
+        <option value="eee">EEE</option>    
+    </select>
+    </td>
+    </tr>
+   
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="genders" value="Male"> <b>Male</b> &nbsp;
+        <input type="radio" name="genders" value="Female"> <b>Female</b></td>
+    </tr>
+      <tr> 
+        <td> Date Of Birth</td>
+        <td><input type="date" name="doob" id="dob"></td>
+    </tr>
+    
+    <tr>
+        <td>Address</td>
+        <td><textarea id="addr" cols="25" rows="6" placeholder="Enter Full Address" name="address"></textarea></td>
+    </tr>
+  
+   
+  
+   
+    <tr>
+      <td colspan="2" style="font-size: x-large; text-align: center;"> 
+         <button type="reset">Reset</button> &nbsp; <button type="submit" value="submit"> Submit</button> </td>
+    
+    </tr>
+        </table>
+    </center>
+</form>
+<p style="text-align: center; font-weight: bold;">Already have an account? &nbsp; <a href="account.html">LOGIN</a></p>
+<script src="myScript.js"></script>
+    
+</div>
+<div class="mesage">
+    <p id="resultu">
+
+    </p>
+
+</div>
+
+    </body>
+    
+</html>
